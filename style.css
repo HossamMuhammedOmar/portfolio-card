@@ -4,12 +4,12 @@ body {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 21px;
+  margin: 0;
 }
 
 .container {
   width: 570px;
   margin: 0 auto;
-  border: 1px solid black;
 }
 
 img {
@@ -73,8 +73,7 @@ a:focus {
 /* LAYOUT */
 
 header,
-.about-me,
-.articles {
+section {
   padding: 100px 0;
 }
 
@@ -88,4 +87,13 @@ header {
 
 .articles {
   background-color: #eaf9ff;
+}
+
+.dark-color {
+  background: #252525;
+  color: #fff;
+}
+
+.white-color {
+  background-color: #fff;
 }
