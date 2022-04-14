@@ -21,8 +21,10 @@ img {
 /* TYPOGRAPHY */
 
 h1,
-h2 {
+h2,
+h3 {
   font-weight: 300;
+  margin: 0;
 }
 
 h1 {
@@ -60,8 +62,30 @@ h3 {
 
 a {
   color: #99d930;
+  font-weight: 900;
 }
 
-a:hover {
+a:hover,
+a:focus {
   color: #131313;
+}
+
+/* LAYOUT */
+
+header,
+.about-me,
+.articles {
+  padding: 100px 0;
+}
+
+header {
+  background-color: #d7d7d7;
+}
+
+.about-me {
+  background-color: #ffeaea;
+}
+
+.articles {
+  background-color: #eaf9ff;
 }
