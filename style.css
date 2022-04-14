@@ -37,6 +37,7 @@ h2 {
   border-top: 1px solid #c4c4c4;
   border-bottom: 1px solid #c4c4c4;
   padding: 25px 0;
+  margin-bottom: 20px;
 }
 
 h3 {
@@ -58,10 +59,12 @@ p {
 .large-h2 {
   font-weight: 900;
   display: block;
+  color: #c70039;
 }
 
 .large-h1 {
   font-size: 80px;
+  text-shadow: 5px -1px 3px #fff;
 }
 
 .large-h2 {
@@ -98,8 +101,9 @@ section {
 .btn {
   display: inline-block;
   padding: 10px 25px;
-  background-color: #99d930;
-  color: #252525;
+  background-color: #71ae21;
+  /* color: #252525; */
+  color: #fff;
   text-decoration: none;
   margin-top: 25px;
 }
@@ -108,4 +112,8 @@ section {
 .btn:focus {
   background-color: #252525;
   color: #fff;
+}
+
+.articles-btn:hover {
+  background-color: #c70039;
 }
