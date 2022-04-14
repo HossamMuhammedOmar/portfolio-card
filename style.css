@@ -15,7 +15,7 @@ body {
 img {
   border-radius: 50%;
   border: 10px solid white;
-  width: 40%;
+  width: 50%;
 }
 
 /* TYPOGRAPHY */
@@ -29,6 +29,7 @@ h3 {
 
 h1 {
   font-size: 60px;
+  margin-bottom: 26px;
 }
 
 h2 {
@@ -38,6 +39,10 @@ h2 {
 h3 {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 0;
+}
+
+p {
   margin-bottom: 0;
 }
 
@@ -70,6 +75,10 @@ a:focus {
   color: #131313;
 }
 
+.articles h2 {
+  margin-bottom: 45px;
+}
+
 /* LAYOUT */
 
 header,
@@ -77,23 +86,23 @@ section {
   padding: 100px 0;
 }
 
-header {
-  background-color: #d7d7d7;
-}
-
-.about-me {
-  background-color: #ffeaea;
-}
-
-.articles {
-  background-color: #eaf9ff;
-}
-
-.dark-color {
+.dark-bg {
   background: #252525;
   color: #fff;
 }
 
-.white-color {
-  background-color: #fff;
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #99d930;
+  color: #252525;
+  text-decoration: none;
+  margin-top: 25px;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #252525;
+  color: #fff;
 }
